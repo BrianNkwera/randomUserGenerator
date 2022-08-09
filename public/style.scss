@@ -1,0 +1,83 @@
+$secondary-color: #bdc7c9;
+$background-dark: #1c1c1e;
+$background-light: #fff;
+$text-dark: #1c1c1e;
+
+.bg-main {
+  background-color: $background-light;
+}
+
+.text {
+  $color: #fff;
+}
+.height-custom{
+  height: 240px !important;
+}
+
+.dark {
+  .bg-main {
+    background-color: $background-dark;
+  }
+  .btn-success {
+    background-color: $background-dark !important;
+  }
+  .text {
+    color: #198754;
+  }
+  /** When darkmode is activated the do the following changes*
+    *change bg-white to bg-dark
+    *change bg-green to btn-dark
+    *Text white to text-success
+    **/
+
+  //   @import "../node_modules/bootstrap/scss/variables";
+  //   @import "../node_modules/bootstrap/scss/mixins";
+  //   @import "../node_modules/bootstrap/scss/functions";
+
+  /* redefine theme colors for dark theme */
+  $primary: #012345;
+}
+
+// body{
+//     background-color: #1c1c1e
+// }
+
+// .dark {
+
+//     $enable-gradients: true;
+
+//     /* redefine theme colors for dark theme */
+//     $primary: #012345;
+//     $secondary: #111111;
+//     $success: #222222;
+//     $dark: #000;
+
+//     $theme-colors: (
+//         "primary": $primary,
+//         "secondary": $secondary,
+//         "success": $success,
+//         "danger": $danger,
+//         "info": $indigo,
+//         "dark": $dark,
+//         "light": #aaa,
+//     );
+
+//     /* redefine theme color variables */
+//     @each $color, $value in $theme-colors {
+//         --#{$variable-prefix}#{$color}: #{$value};
+//     }
+
+//     $theme-colors-rgb: map-loop($theme-colors, to-rgb, "$value");
+
+//     @each $color, $value in $theme-colors-rgb {
+//         --#{$variable-prefix}#{$color}-rgb: #{$value};
+//     }
+
+//     $body-color: #eeeeee;
+//     $body-bg: #263C5C;
+
+//     --#{$variable-prefix}body-color: #{$body-color};
+//     --#{$variable-prefix}body-bg: #{$body-bg};
+
+//     @import "../node_modules/bootstrap/scss/bootstrap.scss";
+// }

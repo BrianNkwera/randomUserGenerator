@@ -1,0 +1,25 @@
+.bg-main {
+  background-color: #fff;
+}
+
+.height-custom {
+  height: 240px !important;
+}
+
+.dark {
+  /** When darkmode is activated the do the following changes*
+    *change bg-white to bg-dark
+    *change bg-green to btn-dark
+    *Text white to text-success
+    **/
+  /* redefine theme colors for dark theme */
+}
+.dark .bg-main {
+  background-color: #1c1c1e;
+}
+.dark .btn-success {
+  background-color: #1c1c1e !important;
+}
+.dark .text {
+  color: #198754;
+}/*# sourceMappingURL=style.css.map */
